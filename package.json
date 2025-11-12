@@ -1,6 +1,6 @@
 {
 	"name": "reveal-file",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Reveal a file or folder in the system file manager (Finder, Explorer, etc.)",
 	"license": "MIT",
 	"repository": "sindresorhus/reveal-file",
