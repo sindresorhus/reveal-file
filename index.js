@@ -28,7 +28,7 @@ export default async function revealFile(filePath) {
 
 		// Explorer returns exit code 1 even when it succeeds.
 		try {
-			await execFile('explorer.exe', [`/select,${windowsPath}`]);
+			await execFile('explorer.exe', [`/select,"${windowsPath}"`]);
 		} catch (error) {
 			if (Number(error?.code) !== 1) {
 				throw error;
